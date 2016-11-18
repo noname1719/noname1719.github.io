@@ -31,7 +31,7 @@ footer{
 }
 .container{
   border: solid #262622 5px;
-  min-height: 300px;
+  min-height: 200px;
   margin: 10px auto;
   width: 972px;
   border-radius: 15px;
@@ -42,7 +42,7 @@ footer{
 .game{
 
   width:300px;
-  min-height: 300px;
+  min-height: 50px;
   display: block;
   float: left;
   margin:10px;
@@ -57,7 +57,7 @@ hr{border: solid #262622   2px;}
   display: block;
   border-radius: 10px;
   min-height: 80px;
-  margin-top: 230px;
+  
   color: #808080;}
 .discription h1{
   font-size: 25px;

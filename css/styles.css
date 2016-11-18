@@ -57,7 +57,7 @@ hr{border: solid #262622   2px;}
   display: block;
   border-radius: 10px;
   min-height: 80px;
-  
+
   color: #808080;}
 .discription h1{
   font-size: 25px;
@@ -81,3 +81,74 @@ font-size: 0px;
   float: left;
   width:300px;
 border-radius: 8px 8px 0 0;}
+
+.cnt{height:150px;}
+
+.ContainerImage1 {
+  background: url(../images/screenshots/krokodie.png);
+
+}
+.ContainerImage2 {
+  background: url(../images/screenshots/masterChu.png);
+
+}
+.ContainerImage3{
+  background: url(../images/screenshots/nonamehero.png);
+
+}
+.ContainerImage4{
+  background: url(../images/screenshots/reimu.png);
+
+}
+.ContainerImage5{
+  background: url(../images/screenshots/followMeGame.png);
+
+}
+.ContainerImage6{
+  background: url(../images/screenshots/UnityBox.png);
+
+}
+.ContainerImage7{
+  background: url(../images/screenshots/followme2.png);
+
+}
+.ContainerImage8{
+  background: url(../images/screenshots/Symmy.png);
+
+}
+.ContainerImage9{
+  background: url(../images/screenshots/napeTest.png);
+
+}
+.ContainerImage10{
+  background: url(../images/screenshots/redsquare2.png);
+
+}
+.ContainerImage11{
+  background: url(../images/screenshots/redsquare.png);
+
+}
+.ContainerImage12{
+  background: url(../images/screenshots/gorizont.png);
+
+}
+.ContainerImage13{
+  background: url(../images/screenshots/projectlive.png);
+
+}
+.ContainerImage14{
+  background: url(../images/screenshots/osmos.png);
+
+}
+.ContainerImage15{
+  background: url(../images/screenshots/yobaCatchGame.png);
+
+}
+.ContainerImage16{
+  background: url(../images/screenshots/floppypekar.png);
+
+}
+.ContainerImage17{
+  background: url(../images/screenshots/pekashooter.png);
+;
+}

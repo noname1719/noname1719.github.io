@@ -1,11 +1,20 @@
-body{}
+body{margin: 0; background-image: url(../images/space.png);
+}
+
 header{
-  width:100%;
+  width:80%;
   height: 200px;
   border: solid black 2px;
-
-
+  margin: auto;
+  background: white;
+  background-image: url(../images/space.png);
+  border-radius: 0 0 10px 10px;
 }
+.logo{
+  text-align: center;
+
+
+  }
 header h1{
   text-align: center;
   padding-top: 5%;
@@ -15,50 +24,60 @@ header h1{
 footer{
   height: 100px;
   width: 100%;
-  border: solid black 2px;
-}
+  background: white;
+  margin: auto;
 
-footer a {
-  color: white;
-
+  background-image: url(../images/space.png);
 }
 .container{
-  border: solid black 2px;
+  border: solid #262622 5px;
   min-height: 300px;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  width: 970px;
+  margin: 10px auto;
+  width: 972px;
+  border-radius: 15px;
+  background:#171714;
 
 
 }
 .game{
-  border: solid black 1px;
+
   width:300px;
   min-height: 300px;
   display: block;
   float: left;
   margin:10px;
-
-}
+ border: solid #262622 2px;
+border-radius: 13px;
+background:  #00001a;}
+hr{border: solid #262622   2px;}
 .clearfix{
   clear: both;
 }
 .discription{
   display: block;
-  border: solid black 1px;
+  border-radius: 10px;
   min-height: 80px;
   margin-top: 230px;
-}
+  color: #808080;}
 .discription h1{
   font-size: 25px;
   padding-left: 5px;
+  margin-top: -8px;
 }
 .discription p{
   padding: 5px;
+  font-style: italic;
 }
 .link{
-
+font-size: 0px;
 }
-.screenshoot{display: block;float: left;}
+.linkCont{
+  width: 100px;
+  height: 50px;
+  margin:  auto;
+  padding: 20px;}
+.screenshoot{
+  display: block;
+  float: left;
+  width:300px;
+border-radius: 8px 8px 0 0;}

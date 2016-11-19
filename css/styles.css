@@ -36,8 +36,7 @@ footer{
   width: 972px;
   border-radius: 15px;
   background:#171714;
-
-
+  opacity: 0.9;
 }
 .game{
 
@@ -48,8 +47,11 @@ footer{
   margin:10px;
  border: solid #262622 2px;
 border-radius: 13px;
-background:  #00001a;}
+background:  #00001a;
+}
+
 hr{border: solid #262622   2px;}
+
 .clearfix{
   clear: both;
 }
@@ -85,6 +87,12 @@ border-radius: 8px 8px 0 0;}
 .cnt{
   background-repeat: no-repeat;
   background-position: center;
-  height:300px;}
+  height:200px;
+}
 
-.cnt:hover{background-size: cover;}
+.cnt:hover{background-size:contain; webkit-border-radius:15px;}
+
+.buttons{
+  margin: 5px;
+  width: 100px;
+}

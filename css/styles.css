@@ -33,10 +33,10 @@ footer{
   border: solid #262622 5px;
   min-height: 200px;
   margin: 10px auto;
-  width: 972px;
+  width: 980px;
   border-radius: 15px;
-  background:#171714;
-  opacity: 0.9;
+  background:rgba(23, 23, 20, 0.8);
+
 }
 .game{
 
@@ -45,9 +45,10 @@ footer{
   display: block;
   float: left;
   margin:10px;
- border: solid #262622 2px;
+ border: solid #262622 3px;
 border-radius: 13px;
 background:  #00001a;
+overflow: hidden;
 }
 
 hr{border: solid #262622   2px;}
@@ -64,7 +65,9 @@ hr{border: solid #262622   2px;}
 .discription h1{
   font-size: 25px;
   padding-left: 5px;
-  margin-top: -8px;
+  margin-top: -2px;
+  margin-bottom: -10px;
+  text-align: center;
 }
 .discription p{
   padding: 5px;
@@ -86,13 +89,22 @@ border-radius: 8px 8px 0 0;}
 
 .cnt{
   background-repeat: no-repeat;
-  background-position: center;
   height:200px;
 }
-
-.cnt:hover{background-size:contain; webkit-border-radius:15px;}
+.foll{background-position:0 -200px;}
+.foll1{background-position:0 -300px;}
+/*.cnt:hover{background-size:contain;background-position: center; }*/
 
 .buttons{
-  margin: 5px;
-  width: 100px;
+  color: #808080;
+  width: 70%;
+  text-align: center;
+  display: block;
+  height: 30px;
+  background:#00004d;
+  border-radius:20px 20px 0 0 ;
+  border: none;
+  margin: 0 auto;
+
 }
+.buttons:hover{border:solid #33334d 2px}
